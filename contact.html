@@ -2,9 +2,9 @@
 title: Kontakt
 ---
 
-<h1>Contact</h1>
+<h1>Kontakt</h1>
 <p class="editable">
-	Ak m&aacute;te ak&eacute;koľvek ot&aacute;zky/pripomienky k n&aacute;vodom prezentovan&yacute;m na tejto str&aacute;nke, rada ic zodpoviem/zapracujem.
+	Ak m&aacute;te ak&eacute;koľvek ot&aacute;zky/pripomienky k n&aacute;vodom prezentovan&yacute;m na tejto str&aacute;nke, rada ich zodpoviem/zapracujem.
 </p>
 
 <form method="post" action="{{ site.baseurl }}/contact-success/">
@@ -13,34 +13,34 @@ title: Kontakt
 
 	<div class="contain">
 		<div class="split">
-			<label for="first-name">First Name</label>
+			<label for="first-name">Krstné meno</label>
 			<input type="text" name="first-name" id="first-name" />
 		</div>
 		<div class="split">
-			<label for="surname">Surname</label>
+			<label for="surname">Priezvisko</label>
 			<input type="text" name="surname" id="surname" />
 		</div>
 	</div>
 
 	<div class="contain">
 		<div class="split">
-			<label for="email">Email Address</label>
+			<label for="email">E-mail</label>
 			<input type="email" name="email" id="email" required />
 		</div>
 
 		<div class="split">
-			<label for="subject">Subject</label>
+			<label for="subject">Predmet správy</label>
 			<select id="subject" name="subject">
-				<option value="enquiry">Enquiry</option>
-				<option value="suggestion">Suggestion</option>
-				<option value="press">Press</option>
-				<option value="other">Other</option>
+				<option value="enquiry">Dotaz</option>
+				<option value="suggestion">Odporúčanie</option>
+				<option value="press">Pripomienka</option>
+				<option value="other">Iné</option>
 			</select>
 		</div>
 	</div>
 
-	<label for="message">Message</label>
+	<label for="message">Správa</label>
 	<textarea name="message" id="message"></textarea>
 
-	<input type="submit" value="Send Message" />
+	<input type="submit" value="Odoslať" />
 </form>
