@@ -1,8 +1,8 @@
-- name: Home
+- name: Domov
   link: /
-- name: About
+- name: O mne
   link: /about/
-- name: Recipes
-  link: /recipes/
-- name: Contact
+- name: Návody
+  link: /tutorials/
+- name: Kontakt
   link: /contact/
